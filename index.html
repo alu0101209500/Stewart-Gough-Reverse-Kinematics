@@ -1,0 +1,43 @@
+<head>
+    <title>Visualizador Stewart-Gough</title>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="./css/styles.css"  media="screen,projection"/>
+</head>
+<body>
+    <div id="main">
+        <br>
+        <h1>Visualizador Stewart-Gough</h1>
+        <h2>Cálculo de la cinemática inversa</h2>
+        <canvas id="viewer"></canvas>
+        <form id="params">
+            <p>Valor de x</p>
+            <input type="number" placeholder="Valor de x" value=0>
+            <p>Valor de y</p>
+            <input type="number" placeholder="Valor de y" value=0>
+            <p>Valor de z</p>
+            <input type="number" placeholder="Valor de z" value=160>
+            <p>Valor de alabeo</p>
+            <input type="number" placeholder="Valor de alabeo" value=0>
+            <p>Valor de cabeceo</p>
+            <input type="number" placeholder="Valor de cabeceo" value=0>
+            <p>Valor de guiñada</p>
+            <input type="number" placeholder="Valor de guiñada" value=0>
+            <p>Valor de radio de la base</p>
+            <input type="number" placeholder="Valor de radio de la base" value=100>
+            <p>Valor de ángulo de la base</p>
+            <input type="number" placeholder="Valor de ángulo de la base" value=40>
+            <p>Valor de radio de la plataforma</p>
+            <input type="number" placeholder="Valor de radio de la plataforma" value=60>
+            <p>Valor de ángulo de la plataforma</p>
+            <input type="number" placeholder="Valor de ángulo de la plataforma" value=40>
+            <br>
+        </form>
+        <button id="render">Renderizar</button>
+        <br><br>
+        <p class="signature">Pablo Alonso Flores (alu0101209500) - 2022</p>
+        <br>
+        <script type="text/javascript" src="./javascript/reverseKinematics.js"></script>
+        <script type="text/javascript" src="./javascript/viewer.js"></script>
+        
+    </div>
+</body>

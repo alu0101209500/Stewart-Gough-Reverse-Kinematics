@@ -1,0 +1,48 @@
+body {
+    background-color: darkslategray;
+}
+#main {
+    width: 50%;
+    margin-left: 25%;
+    background-color: white;
+
+}
+
+#main h1 {
+    width: 100%;
+    text-align: center;
+}
+
+#main h2 {
+    width: 100%;
+    text-align: center;
+}
+
+#params p {
+    display: block;
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+#params input {
+    display: inline;
+    width: 45%;
+    margin-left: 10%;
+}
+#render {
+    width: 80%;
+    margin-left: 10%;
+}
+
+#viewer {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.signature {
+    width: 100%;
+    text-align: center;
+    color: dimgrey;
+    font-style: italic;
+}
